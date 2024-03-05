@@ -25,5 +25,5 @@ for($i = 0; $i < 10; $i++){
         rand(0, 5000)
 
     ));
-    sleep(1);
+    time_nanosleep(1);
 }
